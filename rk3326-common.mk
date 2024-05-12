@@ -91,6 +91,14 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-service \
+    android.hardware.keymaster@3.0-impl
+
+PRODUCT_PACKAGES += \
+    libkeymaster3device.vendor
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 

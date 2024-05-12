@@ -232,6 +232,12 @@ vendor/lib/hw/gatekeeper.rk30board.so
 vendor/lib/libRkTeeGatekeeper.so
 vendor/lib/librkgatekeeper.so
 
+# Keymaster
+vendor/lib/hw/keystore.rk30board.so
+vendor/lib/libRkTeeKeymaster.so
+vendor/lib/libkeymaster2.so
+vendor/lib/libkeymaster_messages2.so
+
 # Modules
 vendor/lib/modules/atbm6011b.ko
 
