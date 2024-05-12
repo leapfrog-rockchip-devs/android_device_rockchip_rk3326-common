@@ -1,0 +1,4 @@
+# Display
+vendor.gralloc.disable_afbc=1
+vendor.hwc.compose_policy=6
+ro.hardware.egl=mali

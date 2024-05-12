@@ -3,6 +3,19 @@
 # Audio
 vendor/lib/hw/audio.primary.rk30board.so
 
+# Display
+vendor/lib/egl/libGLES_mali.so
+vendor/lib/hw/gralloc.rk30board.so
+vendor/lib/hw/hwcomposer.rk30board.so
+vendor/lib/hw/memtrack.rk3326.so:vendor/lib/hw/memtrack.rk30board.so
+vendor/lib/libdrm_rockchip.so
+vendor/lib/libdrm.so
+vendor/lib/libgralloc_drm.so
+vendor/lib/libhwc2on1adapter.so
+vendor/lib/libhwc2onfbadapter.so
+vendor/lib/librga.so
+vendor/lib/libsync_vendor.so
+
 # Firmware
 vendor/etc/firmware/4343A0.hcd
 vendor/etc/firmware/awnb108.hcd
