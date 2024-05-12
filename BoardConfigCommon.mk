@@ -20,5 +20,8 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_BOARD_PLATFORM := rk3326
 TARGET_BOOTLOADER_BOARD_NAME := rk30sdk
 
+# Verified Boot
+BOARD_AVB_ENABLE := false
+
 # Inherit the proprietary files
 include vendor/rockchip/rk3326-common/BoardConfigVendor.mk
