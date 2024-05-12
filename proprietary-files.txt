@@ -238,6 +238,20 @@ vendor/lib/libRkTeeKeymaster.so
 vendor/lib/libkeymaster2.so
 vendor/lib/libkeymaster_messages2.so
 
+# Media (OMX)
+vendor/lib/libhwjpeg.so
+vendor/lib/libiep.so
+vendor/lib/libjpeghwenc.so
+vendor/lib/libmpp.so
+vendor/lib/librk_vpuapi.so
+vendor/lib/libvpu.so
+vendor/lib/libOMX_Core.so
+vendor/lib/libRkOMX_Resourcemanager.so
+vendor/lib/libgralloc_priv_omx.so
+vendor/lib/libomxvpu_enc.so
+vendor/lib/libomxvpu_dec.so
+vendor/lib/libstagefrighthw.so
+
 # Modules
 vendor/lib/modules/atbm6011b.ko
 
