@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.2-service-lazy.clearkey
+    android.hardware.drm@1.3-service-lazy.clearkey
 
 PRODUCT_PACKAGES += \
     libdrmclearkeyplugin \
