@@ -229,3 +229,9 @@ vendor/firmware/preisp_imx327.rkl
 
 # Modules
 vendor/lib/modules/atbm6011b.ko
+
+# Widevine (DRM)
+vendor/bin/hw/android.hardware.drm@1.2-service-lazy.widevine
+vendor/etc/init/android.hardware.drm@1.2-service-lazy.widevine.rc
+vendor/lib/libwvhidl.so
+vendor/lib/mediadrm/libwvdrmengine.so
