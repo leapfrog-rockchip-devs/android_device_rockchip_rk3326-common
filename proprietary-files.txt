@@ -1,0 +1,4 @@
+# Unpinned blobs from rk3326_qgo-user 10 QD4A.200805.003 eng.epicbu.20231228.113918 release-keys
+
+# Audio
+vendor/lib/hw/audio.primary.rk30board.so

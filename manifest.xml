@@ -3,4 +3,19 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <manifest version="1.0" type="device" target-level="4">
+    <hal format="hidl">
+        <name>android.hardware.audio</name>
+        <transport>hwbinder</transport>
+        <fqname>@5.0::IDevicesFactory/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.audio.effect</name>
+        <transport>hwbinder</transport>
+        <fqname>@5.0::IEffectsFactory/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.soundtrigger</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::ISoundTriggerHw/default</fqname>
+    </hal>
 </manifest>
