@@ -23,5 +23,8 @@ TARGET_BOOTLOADER_BOARD_NAME := rk30sdk
 # Verified Boot
 BOARD_AVB_ENABLE := false
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 # Inherit the proprietary files
 include vendor/rockchip/rk3326-common/BoardConfigVendor.mk
