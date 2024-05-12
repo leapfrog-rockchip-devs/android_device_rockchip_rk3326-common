@@ -5,3 +5,6 @@ ro.hardware.egl=mali
 
 # DRM
 drm.service.enabled=true
+
+# Wi-Fi
+wifi.interface=wlan0

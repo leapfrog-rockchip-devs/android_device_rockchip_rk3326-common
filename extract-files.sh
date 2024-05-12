@@ -60,6 +60,12 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/bin/hw/android.hardware.wifi@1.0-service-rockchip)
+            "${PATCHELF}" --replace-needed "libwifi-hal.so" "libwifi-hal-rockchip.so" "${2}"
+            ;;
+        vendor/etc/init/android.hardware.wifi@1.0-service-rockchip.rc)
+            sed -i 's|android.hardware.wifi@1.0-service-lazy|android.hardware.wifi@1.0-service-rockchip|g' "${2}"
+            ;;
         vendor/lib/hw/gatekeeper.rk30board.so)
             "${PATCHELF}" --replace-needed "libgatekeeper.so" "libgatekeeper-v29.so" "${2}"
             ;;

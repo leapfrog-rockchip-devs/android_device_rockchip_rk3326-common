@@ -253,3 +253,12 @@ vendor/bin/hw/android.hardware.drm@1.2-service-lazy.widevine
 vendor/etc/init/android.hardware.drm@1.2-service-lazy.widevine.rc
 vendor/lib/libwvhidl.so
 vendor/lib/mediadrm/libwvdrmengine.so
+
+# Wi-Fi
+vendor/bin/hw/android.hardware.wifi@1.0-service-lazy:vendor/bin/hw/android.hardware.wifi@1.0-service-rockchip
+vendor/bin/hw/hostapd
+vendor/bin/hw/wpa_supplicant
+vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:android.hardware.wifi@1.0-service-rockchip.rc
+vendor/etc/init/hostapd.android.rc
+vendor/lib/librkwifi-ctrl.so
+vendor/lib/libwifi-hal.so:vendor/lib/libwifi-hal-rockchip.so
