@@ -30,6 +30,17 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.rk30board.rc:recovery/root/init.recovery.rk30board.rc
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.rk30board \
+    fstab.rk30board_ramdisk \
+    init.rk30board.rc \
+    init.rk30board.usb.rc \
+    ueventd.rk30board.rc
+
+PRODUCT_PACKAGES += \
+    init.insmod.sh
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \

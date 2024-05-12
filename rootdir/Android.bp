@@ -1,0 +1,31 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+sh_binary {
+    name: "init.insmod.sh",
+    src: "bin/init.insmod.sh",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.rk30board",
+    src: "etc/fstab.rk30board",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk30board.rc",
+    src: "etc/init.rk30board.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.rk30board.usb.rc",
+    src: "etc/init.rk30board.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
