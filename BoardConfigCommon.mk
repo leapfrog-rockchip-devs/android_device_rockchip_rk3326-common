@@ -16,5 +16,9 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 
 TARGET_USES_64_BIT_BINDER := true
 
+# Platform
+TARGET_BOARD_PLATFORM := rk3326
+TARGET_BOOTLOADER_BOARD_NAME := rk30sdk
+
 # Inherit the proprietary files
 include vendor/rockchip/rk3326-common/BoardConfigVendor.mk
