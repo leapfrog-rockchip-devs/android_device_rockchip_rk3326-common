@@ -7,6 +7,9 @@ on post-fs
     # Set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
 
+    # TEE
+    start tee-supplicant
+
 on post-fs-data
     # HDMI
     chmod 664 /sys/class/display/HDMI/color
@@ -302,3 +305,6 @@ on property:vendor.wifi.direct.interface=p2p0
 
 on property:vendor.wifi.direct.interface=p2p-dev-wlan0
     setprop wifi.direct.interface p2p-dev-wlan0
+
+service tee-supplicant /vendor/bin/tee-supplicant
+    class core

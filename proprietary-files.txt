@@ -230,6 +230,13 @@ vendor/firmware/preisp_imx327.rkl
 # Modules
 vendor/lib/modules/atbm6011b.ko
 
+# TEE
+vendor/bin/tee-supplicant
+vendor/lib/libteec.so
+vendor/lib/optee_armtz/481a57df-aec8-47ad-92f5-eb9fc24f64a6.ta
+vendor/lib/optee_armtz/258be795-f9ca-40e6-a869-9ce6886c5d5d.ta
+vendor/lib/optee_armtz/0b82bae5-0cd0-49a5-9521-516dba9c43ba.ta
+
 # Widevine (DRM)
 vendor/bin/hw/android.hardware.drm@1.2-service-lazy.widevine
 vendor/etc/init/android.hardware.drm@1.2-service-lazy.widevine.rc
