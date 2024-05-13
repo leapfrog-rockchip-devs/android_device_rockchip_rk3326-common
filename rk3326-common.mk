@@ -43,6 +43,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+# Characteristics
+PRODUCT_CHARACTERISTICS := tablet
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service
