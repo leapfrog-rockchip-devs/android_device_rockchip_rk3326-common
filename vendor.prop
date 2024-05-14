@@ -7,6 +7,7 @@ ro.hardware.egl=mali
 drm.service.enabled=true
 
 # Media (OMX)
+debug.stagefright.ccodec=0
 sf.power.control=2073600
 
 # Wi-Fi
