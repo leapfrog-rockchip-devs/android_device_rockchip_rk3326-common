@@ -9,6 +9,9 @@ ro.hardware.egl=mali
 # DRM
 drm.service.enabled=true
 
+# LLK
+ro.llk.enable=false
+
 # LMK
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=100
@@ -27,3 +30,7 @@ service.sf.prime_shader_cache=0
 
 # Wi-Fi
 wifi.interface=wlan0
+
+# Zygote
+pm.dexopt.downgrade_after_inactive_days=10
+pm.dexopt.shared=quicken
