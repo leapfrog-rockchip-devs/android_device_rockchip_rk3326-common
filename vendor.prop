@@ -21,5 +21,8 @@ ro.lmk.use_new_strategy=true
 debug.stagefright.ccodec=0
 sf.power.control=2073600
 
+# SurfaceFlinger
+service.sf.prime_shader_cache=0
+
 # Wi-Fi
 wifi.interface=wlan0
