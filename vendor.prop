@@ -32,5 +32,5 @@ service.sf.prime_shader_cache=0
 wifi.interface=wlan0
 
 # Zygote
-pm.dexopt.downgrade_after_inactive_days=10
+pm.dexopt.downgrade_after_inactive_days=17
 pm.dexopt.shared=quicken
