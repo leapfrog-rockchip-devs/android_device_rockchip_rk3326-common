@@ -22,6 +22,7 @@ debug.stagefright.ccodec=0
 sf.power.control=2073600
 
 # SurfaceFlinger
+debug.sf.disable_client_composition_cache=1
 service.sf.prime_shader_cache=0
 
 # Wi-Fi
