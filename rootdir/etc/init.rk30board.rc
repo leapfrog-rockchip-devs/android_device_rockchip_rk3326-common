@@ -48,6 +48,9 @@ on late-fs
     mount_all /vendor/etc/fstab.rk30board --late
 
 on early-init
+    # Wi-Fi
+    insmod /vendor/lib/modules/atbm6011b.ko
+
     # CPU
     write /sys/devices/system/cpu/cpufreq/policy0/scaling_governor performance
     write /sys/system_monitor/system_status p

@@ -213,3 +213,6 @@ vendor/firmware/fw_rk1608_bypass.rkl
 vendor/firmware/fw_rk1608_ov2718_1frame.rkl
 vendor/firmware/fw_rk1608_ov2718_2frame.rkl
 vendor/firmware/preisp_imx327.rkl
+
+# Modules
+vendor/lib/modules/atbm6011b.ko
